@@ -120,7 +120,9 @@ figure figcaption {
     display: block;
     margin-bottom: 2em;
     font-size: 12px;
-    text-transform: uppercase; }
+    text-transform: uppercase; 
+    font-weight: 600;
+  }
   #akriti-aside #akriti-logo {
     text-align: right;
     font-weight: 700;
@@ -958,7 +960,7 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
+    background: #834808;
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -968,6 +970,9 @@ body.offcanvas {
       display: block;
       position: relative;
       height: 300px; }
+    .project .desc .con p {
+      color: #000;
+    }
       .project .desc .con .icon {
         position: absolute;
         bottom: 20px;
