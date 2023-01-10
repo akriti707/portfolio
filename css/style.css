@@ -30,6 +30,7 @@ body, #akriti-aside p{
     body {
       font-size: 14px;
     }
+
   }
 
 a {
@@ -1033,16 +1034,21 @@ body.offcanvas {
         color: #000; }
     @media screen and (max-width: 768px) {
       .project .desc {
-        opacity: 1;
-        background: rgba(0, 0, 0, 0.4); }
-        .project .desc h3 {
-          font-style: 28px;
-          -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
-          color: #000; }
-        .project .desc span {
-          -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0); } }
+        /* opacity: 1;
+        background: rgba(0, 0, 0, 0.4);  */
+      }
+      .project .desc h3 {
+        font-style: 28px;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        color: #000; 
+        margin-bottom: 10px;
+      }
+      .project .desc span {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0); 
+      } 
+    }
   .project:hover .desc {
     opacity: 1; }
     .project:hover .desc h3 {
