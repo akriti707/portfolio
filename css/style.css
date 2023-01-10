@@ -22,7 +22,15 @@ body, #akriti-aside p{
 }
   @media screen and (max-width: 992px) {
     body {
-      font-size: 16px; } }
+      font-size: 16px; 
+    } 
+  }
+
+  @media (max-width:650px) {
+    body {
+      font-size: 14px;
+    }
+  }
 
 a {
   color: #f9bf3f;
@@ -960,7 +968,7 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #834808;
+    background: #834808eb;
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -971,7 +979,7 @@ body.offcanvas {
       position: relative;
       height: 300px; }
     .project .desc .con p {
-      color: #000;
+      color: #ebeaea;
     }
       .project .desc .con .icon {
         position: absolute;
