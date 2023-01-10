@@ -423,7 +423,9 @@ body.offcanvas {
     .akriti-services,
     .akriti-contact {
       padding-top: 5em;
-      padding-bottom: 8em; } }
+      /* padding-bottom: 8em;  */
+    } 
+  }
 
 .author-img {
   background-size: cover;
