@@ -924,49 +924,5 @@
     <!-- MAIN JS -->
     <script src="js/main.js"></script>
 
-    <!-- <script>
-      $("#send-mail-form").submit(function (event) {
-        event.preventDefault();
-
-        var name = $("#name").val();
-        var email = $("#email").val();
-        var phone = $("#phone").val();
-        var company = $("#company").val();
-        var message = $("#message").val();
-        var allMessage = `Name: ${name} <br>Email: ${email} <br>Phone: ${phone} <br>Company: ${company} <br>Message: ${message}`;
-
-        $.ajax({
-          type: "post",
-          data: {
-            message: allMessage,
-            _token: "{{ csrf_token() }}",
-          },
-          url: "mail.php",
-          success: function (response) {
-            console.log(response);
-            alert(response);
-            // swal({
-            //     position: "center",
-
-            //     icon: "success",
-
-            //     type: "success",
-
-            //     title: response,
-
-            //     showConfirmButton: false,
-
-            //     buttons: false,
-
-            //     timer: 2000,
-            // });
-
-            $("#send-mail-form")[0].reset();
-
-            $("#submit-message").show();
-          },
-        });
-      });
-    </script> -->
   </body>
 </html>
