@@ -797,7 +797,7 @@ body.offcanvas .akriti-nav-toggle {
   font-weight: 500;
 }
 
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a, ul li {
   color: #000;
 }
 
